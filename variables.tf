@@ -12,3 +12,8 @@ variable "organization" {
   type        = string
   description = "Organization of workspace that created the Kubernetes cluster"
 }
+
+variable "workspace" {
+  type        = string
+}
+
